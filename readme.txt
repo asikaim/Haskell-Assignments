@@ -1,14 +1,12 @@
-Markku Asikainen
-#2504740
-
+Assignments are taken from 99 Haskell Problems (lists, prime numbers and binary tree)
 
 --single file--
-Tehtävät voidaan tarkastaa käyttämällä ghci
-Funktioita kutsutaan nimillä t1, t2, t3 jne.
-Parametrit syötetään samalla tavalla, kuin tehtävän annossa
+Can be used with ghci
+Functions are called with t1, t2, t3 etc.
+Parameters are inputted after writing name of the function
 
 
 --multiple files--
-Tehtävät ajetaan ghc compilerin läpi ja aukaistaan kutsumalla esim t1.exe, t2.exe jne
-Parametrit kysytään käyttäjältä yksitellen
-Sulut lasketaan myös mukaan listoihin, joten ei toimi kovin kummoisesti
+Can be compiled with ghc
+Parameters are inputted one at a time after starting the program
+No error check so it doesn't work that well
